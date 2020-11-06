@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+p {
+    color: #000000;
+    font-family: arial;
+    font-weight: bold; 
+    }
+html {
+}
+body {
+    background-image: url("bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: visible;
+    background-color: #ffffff;
+    opacity: 80%;
+}
+form {
+    background-color: rgb(255, 255, 255);
+    background-size: (1000px);
+    background-position-y: center;
+    opacity: 100%;
+}
+form table{
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-radius: 2px;
+    overflow: hidden;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
