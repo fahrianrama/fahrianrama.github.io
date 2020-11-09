@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+html {
+}
+header{
+    padding: 5px;
+    }
+    ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #004d06;
+        opacity: 80%;
+        box-shadow: 0 5px 5px black;
+    }
+    li.logo{
+        float: left;
+        margin-left: 3%;
+    }
+    li.logo img{
+        margin: auto;
+        display: block;
+        max-height: 50%;
+        height: 50px;
+        padding-top: 5px;
+    }
+    li {
+        float: right;
+        font-size: 18px;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 24px 36px;
+        text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+body {
+    background-image: url("../sourceimg/backgroundhome.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+img.logo_mid{
+    margin-left: 11.6cm;
+    margin-top: 4cm;
+    height: 100px;
+    width: 500px;
+}
+.jargon{
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 10px;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: thin;
+    text-shadow: 3px 2px 0px #000000;
+}
+img.started{
+    margin-left: 10cm;
+    margin-top: 40px;
+    height: 150px;
+    width: 150px;
+}
+img.qna{
+    margin-left: 80px;
+    margin-bottom: 7px;
+    height: 125px;
+    width: 125px;
+}
+img.shop{
+    margin-left: 3cm;
+    margin-bottom: 8px;
+    height: 115px;
+    width: 115px;
+}
+.kata1{
+    margin-left: 425px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+}
+.kata2{
+    margin-top: -22px;
+    margin-left: 610px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+}
+.kata3{
+    margin-top: -23px;
+    margin-left: 878px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+}
+.footer{
+    margin-top: 2cm;
+    margin-bottom: 3cm;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: thin;
+    text-shadow: 3px 2px 0px #000000;
+}
