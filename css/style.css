@@ -67,6 +67,28 @@ img.qnalogo{
     width: 100px;
     height: 100px;
 }
+img.shoplogo{
+    width: 90px;
+    height: 90px;
+}
+img.askicon{
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: -140px;
+}
+img.askicon2{
+    width: 50px;
+    height: 50px;
+    margin-top: -40px;
+    margin-left: 120px;
+}
+img.askicon3{
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: -40px;
+}
 .getstarted{
     margin-left: 100px;
     margin-top: -67px;
@@ -110,11 +132,51 @@ img.qnalogo{
     font-weight: bold;
     text-shadow: 3px 3px 0px #000000;
 }
+.question{
+    font-family: cursive;
+    margin-left: 120px;
+    margin-top: -600px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+}
+.pertanyaan{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+}
+.pertanyaan1{
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.pertanyaan2{
+    margin-top: 80px;
+    margin-left: 170px;
+}
+.pertanyaan3{
+    margin-top: 70px;
+    margin-left: 170px;
+}
+.tanyakan{
+    margin-left: 1020px;
+    margin-top: -38px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+}
 img.bingkaiqna{
     margin-top: 0px;
     margin-bottom: 4cm;
     height: 500px;
     width: 1300px;
+}
+img.ajukan{
+    margin-top: 0px;
+    margin-left: 1000px;
+    height: 50px;
+    width: 200px;
 }
 img.bingkai1{
     margin-top: 1cm;
@@ -193,6 +255,58 @@ img.loadmore{
     margin-bottom: 5cm;
     height: 35px;
     width: 150px;
+}
+.form{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+    text-align: left;
+    margin-top: -280px;
+    margin-left: 5cm;
+}
+.form2{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+    margin-top: 70px;
+    margin-left: 5cm;
+}
+.form3{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+    margin-top: 30px;
+    margin-left: 5cm;
+}
+.form4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+    margin-top: 30px;
+    text-align: center;
+}
+.notif3{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+    margin-top: -450px;
+    margin-left: 500px;
+}
+.textarea{
+    margin-left: 525px;
+    margin-top: 1cm;
+    width: 300px;
+    height: 100px;
+}
+.submit{
+    width: 100px;
+    height: 35px;
+    margin-left: 625px;
 }
 header{
     padding: 5px;

@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+html {
+}
+body {
+    background-image: url("../sourceimg/bgshop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header{
+    padding: 5px;
+    }
+    ul {
+        list-style-type: none;
+        margin: auto;
+        padding: 0;
+        overflow: hidden;
+        background-color: #004d06;
+        opacity: 80%;
+        box-shadow: 0 5px 5px black;
+    }
+    li.logo{
+        float: left;
+        margin-left: 3%;
+    }
+    li.logo img{
+        margin: auto;
+        display: block;
+        max-height: 50%;
+        height: 50px;
+        padding-top: 5px;
+    }
+    li {
+        float: right;
+        font-size: 18px;
+    }
+    
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 24px 36px;
+        text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+img.shoplogo{
+    width: 90px;
+    height: 90px;
+}
+.shp{
+    font-family: cursive;
+    margin-left: 100px;
+    margin-top: -85px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+}
+.tailedlogo{
+    font-family: cursive;
+    margin-left: 100px;
+    margin-top: 0px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+}
+img.bingkaishop{
+    margin-top: 0px;
+    margin-bottom: 4cm;
+    height: 500px;
+    width: 1350px;
+}
+.text1{
+    width: 150px;
+    height: 25px;
+    margin-left: 4cm;
+    margin-top: 1cm;
+}
+.text2{
+    text-align: center;
+    margin-top: -430px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+}
+.produk1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -550px;
+    margin-left: 4cm;
+}
+.produk2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -280px;
+    margin-left: 11cm;
+}
+.produk3{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -280px;
+    margin-left: 700px;
+}
+.produk4{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -280px;
+    margin-left: 26cm;
+}
+.teks{
+    font-family: cursive;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+}
+.teks1{
+    margin-top: -330px;
+    margin-left: 140px;
+}
+.teks2{
+    margin-top: -55px;
+    margin-left: 390px;
+}
+.teks3{
+    margin-top: -55px;
+    margin-left: 680px;
+}
+.teks4{
+    margin-top: -55px;
+    margin-left: 970px;
+}
+.ttail1{
+    margin-top: 20px;
+    margin-left: 210px;
+}
+.ttail2{
+    margin-top: 20px;
+    margin-left: 460px;
+}
+.ttail3{
+    margin-top: 20px;
+    margin-left: 760px;
+}
+.ttail4{
+    margin-top: 20px;
+    margin-left: 1050px;
+}
+img.more{
+    width: 70px;
+    height: 70px;
+    margin-left: 630px;
+    margin-top: 40px;
+}
+.moretxt{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 2px 0px #000000;
+    margin-left: 600px;
+}
