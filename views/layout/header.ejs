@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg bg-white fixed-top">
+    <div class="container d-flex flex-row-reverse">
+        <a class="navbar-brand" href="<%= baseUrl %>">
+            <span>HIMATIF</span>
+            <img src="images/index.png" alt="logo" width="50" height="50" class="mx-2">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li><% if(page == "beranda"){ %><a style="text-decoration: underline; text-decoration-color: blue;" href="<%= baseUrl %>" class="nav-item">Beranda</a></li>
+                <% } else { %>
+                    <li><a href="<%= baseUrl %>" class="nav-item">Beranda</a></li>
+                <% } %>
+                <li><% if(page == "jobdesk"){ %><a style="text-decoration: underline; text-decoration-color: blue;" href="<%= baseUrl%>jobdesk" class="nav-item">Jobdesk</a></li>
+                <% } else { %>
+                    <li><a href="<%= baseUrl %>jobdesk" class="nav-item">Jobdesk</a></li>
+                <% } %>
+                <li><% if(page == "kegiatan"){ %><a style="text-decoration: underline; text-decoration-color: blue;" href="#" class="nav-item">Kegiatan</a></li>
+                <% } else { %>
+                    <li><a href="#" class="nav-item">Kegiatan</a></li>
+                <% } %>
+                <li><% if(page == "tentang"){ %><a style="text-decoration: underline; text-decoration-color: blue;" href="#" class="nav-item">Tentang</a></li>
+                <% } else { %>
+                    <li><a href="#" class="nav-item">Tentang</a></li>
+                <% } %>
+            </ul>
+        </div>      
+    </div>
+</nav>

@@ -1,0 +1,39 @@
+<p class="text-center text-muted">© Copyright 2022 Litbang HIMATIF Unej</p>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    $(window).on("load",function() {
+        $(window).scroll(function() {
+            var width = (window.innerWidth > 0) ? window.innerWidth : document.documentElement.clientWidth;
+            if(width<1300){
+                var windowBottom = $(this).scrollTop() + $(this).innerHeight() + 400;
+            }else{
+                var windowBottom = $(this).scrollTop() + $(this).innerHeight() + 100;
+            }
+            $(".fade").each(function() {
+            /* Check the location of each desired element */
+            var objectBottom = $(this).outerHeight();
+            
+            /* If the element is completely within bounds of the window, fade it in */
+            if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+            } else { //object goes out of view (scrolling up)
+                if ($(this).css("opacity")==1) {$(this).fadeTo(500,0);}
+            }
+            });
+
+            if(width<1300){
+                $(".main-fade").each(function() {   
+                    setTimeout(() => {
+                        if ($(this).css("opacity")==0) {$(this).fadeTo(500,1);}
+                    }, 500);
+                });
+            }
+        }).scroll(); //invoke scroll-handler on page-load
+    });
+    $(window).load(function(){
+        document.getElementById("banner").show("slide", {
+            direction: "up"
+        }, 2000);
+    })
+</script>

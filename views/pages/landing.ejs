@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../layout/head'); %>
+</head>
+<body>
+    <%- include('../layout/header'); %>
+<header>
+</header>
+
+<main>
+    <div class="container main-fade" style="margin-top: 6em;">
+        <div class="d-flex flex-lg-row flex-column text-lg-start text-center align-items-center justify-content-center">
+            <div id="banner" class="slide-right slider col-md-5" style="margin-top: 4em;">
+                <h4>Hai! Selamat Datang di Website</h4>
+                <h1 style="font-weight: 800;">DIVISI PENELITIAN DAN PENGEMBANGAN HIMPUNAN MAHASISWA TEKNOLOGI INFORMASI</h1>
+                <p class="my-3 my-lg-0" style="font-weight:500; font-size: 16px; color: #787d91;">Divisi Litbang atau Divisi Penelitian dan Pengembangan merupakan salah satu divisi yang ada di HIMATIF yang bergerak di bidang akademik, yaitu pengembangan kemampuan dan penalaran Mahasiswa Jurusan Teknologi Informasi Fakultas Ilmu Komputer Universitas Jember.</p>
+            </div>
+            <div class="slide-left col-md-7 my-lg-3 my-5 text-lg-end text-center">
+                <img src="images/member2.png" width="90%" alt="member">
+            </div>
+        </div>
+        <div class="fade" style="margin-top: 10em; margin-bottom: 10em;">
+            <div class="text-center fs-2" style="font-weight: 800;">Meet Our Team!</div>
+            <div class="d-flex flex-row align-items-center justify-content-center" style="margin-bottom: 3em;">
+                <hr style="width: 10%; border: 3px solid blue; border-radius: 5%;">
+            </div>
+            <div class="container">
+                <div class="d-flex flex-row flex-wrap-reverse align-items-center justify-content-center">
+                    <div class="col-6 col-lg-2 text-center mx-4 my-3">
+                        <img class="my-3" src="images/arya.jpg" width="80%" style="border-radius: 50%;" alt="fahrian">
+                        <div class="fs-5 fw-bold">Gustian Aryasatya</div>
+                        <div class="fs-5">Staff</div>
+                        <a style="text-decoration: none;" href="https://www.instagram.com/gustian_arya/?hl=id"  target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> <span class="fs-5">Instagram</span></a>
+                        <hr>
+                    </div>
+                    <div class="col-6 col-lg-2 text-center mx-4 my-3">
+                        <img class="my-3" src="images/fida.jpg" width="80%" style="border-radius: 50%;" alt="fahrian">
+                        <div class="fs-5 fw-bold">Hafizhah Wihdatul U.</div>
+                        <div class="fs-5">Staff</div>
+                        <a style="text-decoration: none;" href="https://www.instagram.com/fidhaaa_/?hl=id"  target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> <span class="fs-5">Instagram</span></a>
+                        <hr>
+                    </div>
+                    <div class="col-6 col-lg-2 text-center mx-4 my-3">
+                        <img class="my-3" src="images/savana.jpg" width="80%" style="border-radius: 50%;" alt="fahrian">
+                        <div class="fs-5 fw-bold">Aliva Savana Septi W.</div>
+                        <div class="fs-5">Staff</div>
+                        <a style="text-decoration: none;" href="https://www.instagram.com/alvsvnaa/?igshid=YmMyMTA2M2Y%3D"  target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> <span class="fs-5">Instagram</span></a>
+                        <hr>
+                    </div>
+                    <div class="col-6 col-lg-2 text-center mx-4 my-3">
+                        <img class="my-3" src="images/laili.jpg" width="80%" style="border-radius: 50%;" alt="fahrian">
+                        <div class="fs-5 fw-bold">Salsabillah Laili Q.</div>
+                        <div class="fs-5">Staff</div>
+                        <a style="text-decoration: none;" href="https://www.instagram.com/salsabillah_lq/?hl=id"  target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> <span class="fs-5">Instagram</span></a>
+                        <hr>
+                    </div>
+                    <div class="col-6 col-lg-2 text-center mx-4 my-3">
+                        <img class="my-3" src="images/fahrian.jpg" width="80%" style="border-radius: 50%;" alt="fahrian">
+                        <div class="fs-5 fw-bold">Fahrian Ramaditiya</div>
+                        <div class="fs-5 mb-2">Kepala Divisi</div>
+                        <a style="text-decoration: none;" href="https://www.instagram.com/fahrian_r_d/?hl=id"  target="_blank"><i class="fa-brands fa-instagram fa-lg"></i> <span class="fs-5">Instagram</span></a>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 10em; margin-bottom: 10em;">
+        <div class="text-center fs-2" style="font-weight: 800;">More To Go!</div>
+        <div class="d-flex flex-row align-items-center justify-content-center" style="margin-bottom: 3em;">
+            <hr style="width: 10%; border: 3px solid blue; border-radius: 5%;">
+        </div>
+    </div>
+</main>
+<footer>
+    <%- include('../layout/footer'); %>
+</footer>
+<script>
+    $(window).load(function(){
+        document.getElementById("banner").show("slide", {
+            direction: "up"
+        }, 2000);
+    })
+</script>
+</body>
+</html>
